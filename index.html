@@ -3,21 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="tables.css">
   <title>List of Students</title>
 </head>
-<style>
-  table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-  th, td {
-    padding: 15px;
-  }
-  table {
-    border-spacing: 5px;
-  }
-</style>
 <body>
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        <a href="index.html">Dev Jaykes</a> 
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <div class="nav-links">
+      <a href="navbar.html" target="">Sign Up</a>
+      <a href="navbar.html" target="">Login</a>
+      <a href="facebook.html" target="">Facebook Login</a>
+      
+    </div>
+    <br><br>
   <h1>List of Students in Frontend Development</h1>
   <table style="width: 100%; text-align: left;">
     <tr>
