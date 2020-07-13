@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://use.fontawesome.com/af08326581.js"></script>
+  <title>BYB | With Facebook</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">BYB | with Facebook</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-cog"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="content">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="list-group list-group-flush">
+          <button type="button" class="list-group-item list-group-item-action active">
+            Training Dashboard
+          </button>
+          <button type="button" class="list-group-item list-group-item-action">Book session</button>
+          <button type="button" class="list-group-item list-group-item-action">All sessions</button>
+          <button type="button" class="list-group-item list-group-item-action">Check session status</button>
+          <button type="button" class="list-group-item list-group-item-action" disabled>Send report</button>
+          <button type="button" class="list-group-item list-group-item-action" disabled>All reports</button>
+          <button type="button" class="list-group-item list-group-item-action" disabled>Download resources</button>
+          <button type="button" class="list-group-item list-group-item-action" disabled>My payments</button>
+          <button type="button" class="list-group-item list-group-item-action" disabled>Account Settings</button>
+          <button type="button" class="list-group-item list-group-item-action" disabled>Join our Community</button>
+        </div>
+      </div>
+
+      <div class="col-sm-9">
+        <h5 id="text">Schedule a training session</h5 id="text">
+
+        <div class="card" id="my-card">
+          <h5 id="inside">Please note that you are to fill the form, a minimum of 7 days before your proposed date</h5>
+          <br>
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Josh">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Onwughalu">
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col">
+                <input type="email" class="form-control" placeholder="kreativejosh@gmail.com">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Name of Organization">
+              </div>
+            </div>
+
+            <br>
+            <div class="row">
+              <div class="col">
+                <input type="number" class="form-control" placeholder="Expected number of participants">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Training Venue">
+              </div>
+            </div>
+
+            <br>
+            <div class="row">
+              <div class="col">
+                <select name="LGs" id="" class="form-control">
+                  <option value="default" selected disabled>Proposed LG</option>
+                </select>
+              </div>
+              <div class="col">
+                <input type="date" class="form-control" placeholder="Proposed Training Date">
+              </div>
+            </div>
+
+            <br>
+            <div class="form-group">
+              <input type="text" name="" id="" class="form-control" placeholder="Proposed time">
+            </div>
+
+            <button class="btn btn-primary btn-lg btn-block">Save and Continue</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer bg-primary pt-3 text-white">
+    <div class="container" id="foot">
+      <p>Copyright $copy; fbportal. All rights reserved </p>
+      <p>Copyright $copy; fbportal. All rights reserved </p>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
