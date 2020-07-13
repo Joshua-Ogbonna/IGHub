@@ -44,3 +44,9 @@ i {
 li {
   color: black;
 }
+.card {
+  border: none;
+}
+input {
+  border: none;
+}
